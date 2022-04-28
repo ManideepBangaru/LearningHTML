@@ -53,14 +53,19 @@
         </aside>
         <br>
         <table>
+            <thead>
             <caption>
                 My Daily Schedule
             </caption>
+            </thead>
+            <tbody>
             <tr>
-                <th>Time</th>
-                <th>Activity</th>
+                <th>&nbsp;</th>
+                <th scope="col">Time</th>
+                <th scope="col">Activity</th>
             </tr>
             <tr>
+                <th scope="row"> Morning </th>
                 <td>
                     <time datetime="10:00"> 10 am</time> - 
                     <time datetime="11:00"> 11 am</time>
@@ -68,6 +73,7 @@
                 <td> Have Breakfast </td>
             </tr>
             <tr>
+                <th scope="row"> Morning </th>
                 <td>
                     <time datetime="11:00"> 11 am</time> -
                     <time datetime="12:00"> 12 pm</time>
@@ -75,6 +81,7 @@
                 <td> Study Time </td>
             </tr>
             <tr>
+                <th scope="row"> Afternoon </th>
                 <td>
                     <time datetime="12:00"> 12 pm</time> -
                     <time datetime="1:00"> 1 pm</time>
@@ -82,14 +89,22 @@
                 <td> Work time </td>
             </tr>
             <tr>
+                <th> Evening </th>
                 <td rowspan="2"> All other Times </td>
                 <td> Free Time </td>
             </tr>
             <tr>
+                <th> Night </th>
                 <td>
                     sleep
                 </td>
             </tr>
+            </tbody>
+            <tfoot>
+                <tr> 
+                    <td colspan="3"> And that is what I do everyday for a week, 5 days a week. Just eat, sleep and code. </td> 
+                </tr>
+            </tfoot>
         </table>
         <hr>
     </section>
