@@ -158,6 +158,102 @@
             </section>
 
             <hr>
+            <br>
+
+            <article id="ContactMe">
+                <form action="https://httpbin.org/get" method="get"></form>
+                <fieldset>
+                    <legend> Personal Info </legend>
+                        <p>
+                            <label for="firstName"> First Name :</label>
+                            <input type="text" name="firstName" id="firstName"
+                            placeholder="Enter your First Name" autocomplete="on" required autofocus>
+                        </p>
+
+                        <p>
+                            <label for="lastName"> Last Name : </label>
+                            <input type="text" name="lastName" id="lastName"
+                            placeholder="Enter your Last Name" required>
+                        </p>
+
+                        <p>
+                            <label for="password"> Password : </label>
+                            <input type="password" name="password" id="password"
+                            placeholder="Enter your secret password" required>
+                        </p>
+
+                        <p>
+                            <label for="phone"> Phone : </label>
+                            <input type="tel" name="phone" id="phone"
+                            placeholder="5555555555" pattern="[0-9]{10}" required>
+                        </p>
+
+                        <p>
+                            <label for="decade"> Favourite Decade : </label>
+                            <input type="number" name="decade" id="decade"
+                            min="1994" max="2022" step="5" value="1994">
+                        </p>
+
+                        <p>
+                            <label for="favouriteCoffee"> Favourite Coffee </label>
+                            <select name="favouriteCoffee" id="favouriteCoffee">
+                                <optgroup label="Coffees">
+                                    <option value="regular coffee"> Regular Coffee</option>
+                                    <option value="iced coffee"> Iced Coffee </option>
+                                </optgroup>
+                                <optgroup label="Espresso Drinks">
+                                    <option value="latte"> Latte </option>
+                                    <option value="cappuccino"> Cappuccino </option>
+                                </optgroup>
+                            </select>
+                        </p>
+                </fieldset>
+
+            </article>
+
+            <br>
+
+            <article>
+                <fieldset>
+                    <legend> What is your favourite food ? </legend>
+                    <p>
+                        <input type="radio" name="tacos" id="tacos">
+                        <label for="tacos"> Tacos </label>
+                    </p>
+                    <p>
+                        <input type="radio" name="pizza" id="pizza">
+                        <label for="pizza"> Pizza </label>
+                    </p>
+                    <p>
+                        <input type="radio" name="Other" id="Other">
+                        <label for="Other">Other</label>
+                    </p>
+                </fieldset>
+            </article>
+
+            <br>
+
+            <article>
+                <fieldset>
+                    <legend> Do you have any pets ?</legend>
+                    <p>
+                        <input type="checkbox" name="dogs" id="dogs">
+                        <label for="dogs"> Dogs </label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="cats" id="cats">
+                        <label for="cats"> Cats</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="Fish" id="Fish">
+                        <label for="Fish">Fish</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="other" id="other">
+                        <label for="other">Other</label>
+                    </p>
+                </fieldset>
+            </article>
 
         </main>
 
