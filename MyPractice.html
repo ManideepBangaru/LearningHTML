@@ -21,7 +21,12 @@
                         <li> <a href="#Vacation"> Vacation </a> </li>
                         <li> <a href="#AvoidPlaces"> Places to Avoid travelling </a> </li>
                     </ul>
-                    <p> <a href="#ContactMe"> Contact Me </a> </p>
+                </nav>
+
+                <nav>
+                    <p> 
+                        <a href="#ContactMe"> Contact Me </a> 
+                    </p>
                 </nav>
             </p>
         </header>
@@ -167,7 +172,7 @@
                         <p>
                             <label for="firstName"> First Name :</label>
                             <input type="text" name="firstName" id="firstName"
-                            placeholder="Enter your First Name" autocomplete="on" required autofocus>
+                            placeholder="Enter your First Name">
                         </p>
 
                         <p>
@@ -255,8 +260,37 @@
                 </fieldset>
             </article>
 
+            <br>
+
+            <article>
+                <fieldset>
+                    <legend> Send me a Note </legend>
+                        <label for="your message"> Your Message : </label>
+                    <p>
+                        <textarea name="your message" id="your message" cols="30" rows="10" placeholder="Start typing your message here ..."></textarea>
+                    </p>
+                </fieldset>
+            </article>
+
+            <br>
+
+            <button type="button"> Submit </button>
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post"> Post </button>
+            <button type="button"> Reset </button>
         </main>
 
     </body>
+
+    <br>
+    <hr>
+    
+    <footer>
+        <p>
+            &lt;&lt;&lt; &copy; <a href="about.html">Manideep Bangaru</a> &gt;&gt;&gt;
+        </p>
+        <p> 
+            <a href="#">Back to Top</a>
+        </p>
+    </footer>
 
 </html>
