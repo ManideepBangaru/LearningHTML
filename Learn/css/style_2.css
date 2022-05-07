@@ -1,9 +1,21 @@
-h2, h3 {
-    color: chocolate;
+/* * {
+    font-family:monospace;
+} */
+
+html {
+    font-size: 22px;
 }
 
 body {
-    font-size: 22px;
+
+}
+
+main {
+    font-family: monospace;
+}
+
+h2, h3 {
+    color: chocolate;
 }
 
 p {
