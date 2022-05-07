@@ -1,0 +1,24 @@
+h2, h3 {
+    color: chocolate;
+}
+
+body {
+    font-size: 22px;
+}
+
+p {
+    color: purple;
+}
+
+.gray {
+    color: gray;
+}
+
+.italyic {
+    font-style: italic;
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
