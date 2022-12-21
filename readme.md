@@ -1,0 +1,1 @@
+install colorzilla extension for chrome
