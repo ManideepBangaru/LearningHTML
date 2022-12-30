@@ -1,3 +1,92 @@
 body{
-    background-color: orange;
+    background-image: url("../images/bg.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 5%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+nav .nav-menu-button {
+    display: None;
+}
+
+nav .nav-items {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.brand-img {
+    display: flex;
+    flex: 1;
+    margin: auto;
+}
+
+.nav-logo {
+    display: block;
+}
+
+.brand-img img {
+    height : 80px
+}
+
+.nav-button {
+    background-color: #E03B8B;
+    border: none;
+    padding: 5px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 80vh;
+}
+
+.col {
+    display: flex;
+    flex: 0.5;
+    min-height: 100%;
+}
+
+.col-2 {
+    overflow: hidden;
+}
+
+.phone-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80%;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.col-1 p {
+    font-size: 25px;
+}
+
+.col-1 h1 {
+    font-size: 75px;
+    margin: 20px;
 }
