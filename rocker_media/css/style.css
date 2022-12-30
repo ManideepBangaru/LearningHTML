@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+body{
+    /* background-color: beige;
+    font-family: "Montserrat","serif"; */
+    /* background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); */
+    /* background: linear-gradient(90deg, #EFF54D 0%, #00AC61 100%); */
+    /* background: linear-gradient(90deg, #feac5e 0%, #c779d0 50%, #4bc0c8 100%); */
+    background: linear-gradient(90deg, #42275a 0%,#734b6d 100%);
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: Montserrat;
+    margin-top: 15%;
+    font-weight: 400;
+    color: white;
+}
+
+span{
+    color: #1f1f1f;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+p{
+    text-align: center;
+    margin-top: -20px;
+    letter-spacing: 2px;
+    color: whitesmoke;
+}
+
+button{
+    margin: auto;
+    display: block;
+}
+
+.btn{
+    background-color: transparent;
+    border: 2px solid #1f1f1f;
+    border-radius: 0.6em;
+    color: #1f1f1f;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1.0em 2.2em;
+    cursor: grab;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 900;
+}
+
+.btn:hover{
+    color: white;
+    outline: 0;
+}
+
+.lco{
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.lco:hover{
+    box-shadow: 0 0 40px 40px #1f1f1f inset;
+}
+
+@media screen and (max-width : 800px){
+    body{
+        background: orange;        
+    }
+    h1{
+        font-size: 40px;
+    }
+    span{
+        font-size: 40px;
+    }
+}
+
+/* @media screen and (min-width : 800px){
+    body{
+        background: orange;        
+    }
+} */
+
+@media screen and (max-width:600px) and (min-width : 400px){
+    body{
+        background-color: crimson;
+    }
+    h1{
+        font-size: 40px;
+    }
+    span{
+        font-size: 40px;
+    }
+}
